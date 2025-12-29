@@ -1,0 +1,16 @@
+<View>
+  <Text name="log" value="$text" />
+
+  <Choices name="label" toName="log" choice="single" showInLine="true">
+    <Choice value="Normal" />
+    <Choice value="Suspicious" />
+    <Choice value="Critical Anomaly" />
+  </Choices>
+
+  <Choices name="anomaly_type" toName="log" choice="single" showInLine="true">
+    <Choice value="Traffic Spike" />
+    <Choice value="Unauthorized Access" />
+    <Choice value="Malformed Request" />
+    <Choice value="Unknown Pattern" />
+  </Choices>
+</View>
